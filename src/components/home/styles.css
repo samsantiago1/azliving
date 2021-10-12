@@ -1,0 +1,153 @@
+.home-main-content {
+    position: relative;
+    top: -15px;
+}
+
+.home-photo-wrapper {
+    max-width: 308px;
+    margin: 0 auto;
+}
+
+.home-photo-wrapper img {
+    width: 100%;
+}
+
+.home-text-section {
+    margin-top: 0.4rem;
+}
+
+.home-text, .home-quote {   
+    margin: 0 auto;
+}
+
+.home-text {
+    max-width: 305px;
+    margin-bottom: 2.2rem;
+}
+
+.home-quote {
+    max-width: 355px;
+    margin-top: 2.2rem;
+}
+
+.socialmedia {
+    position: relative;
+    top: -15px;
+    margin: 1.7rem auto;
+}
+
+.socialmedia-icon {
+    height: 39px;
+    width: 39px;
+    margin: 0.6rem;
+}
+
+.copyright {
+    font-size: 10px;
+}
+
+@media (min-width: 770px) {
+    .home-main-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .home-photo-wrapper {
+        max-width: 569px;
+    }
+
+    .home-text-section {
+        align-self: end;
+    }
+
+    .home-text {
+        margin-bottom: 1rem;
+    }
+
+    .home-quote {
+        max-width: 499px;
+        margin-top: 1.5rem;
+    }
+
+    .socialmedia {
+        margin: 1.2rem auto;
+    }
+}
+
+@media (min-width: 1030px) {
+    .home-photo-wrapper {
+        max-width: 675px;
+    }
+
+    .home-text {
+        max-width: 473px;
+        margin-bottom: 1.3rem;
+    }
+
+    .home-quote {
+        max-width: 554px;
+        margin-top: 1.5rem;
+    }
+
+    .socialmedia {
+        margin: 4rem auto;
+    }
+}
+
+
+/* .home-main-content {
+    display: flex;
+    justify-content: center;
+}
+
+.home-photo-wrapper {
+    position: relative;
+    top: -25px;
+    max-width: 675px;
+}
+
+.home-photo-wrapper img {
+    width: 100%;
+}
+
+.home-text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-text {
+    max-width: 473px;
+    font-size: 28px;
+    margin-top: 8.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.home-quote {
+    max-width: 554px;
+    margin-top: 1.5rem;
+}
+
+.home-footer {
+    margin-top: 3.1rem;
+}
+
+.socialmedia-link {
+    margin-right: 1.5rem;
+}
+
+.socialmedia-icon {
+    height: 45px;
+    width: 45px;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 4.4rem;
+}
+
+.copyright-detail {
+    margin-bottom: 0;
+} */

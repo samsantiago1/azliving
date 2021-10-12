@@ -1,0 +1,22 @@
+.btn-default {
+    height: 40px;
+    width: 165px;
+    font-family: 'Impact', sans-serif;
+    font-size: 24px;
+    background-color: #ed1f1f;
+    color: #fff;
+    margin: 1rem auto;
+}
+
+.btn-secondary {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #ed1f1f;
+}
+
+@media (min-width: 760px) {
+    .btn-default {
+        height: 47px;
+        width: 193px;
+    }
+}

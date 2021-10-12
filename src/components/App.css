@@ -18,9 +18,12 @@ body {
     color: #000;
 }
 
+.page-container {
+    padding: 0 1rem;
+}
+
 .text-heading, .text-subheading {
     font-family: 'Impact', sans-serif;
-    font-weight: 900;
     font-size: 32px;
 }
 
