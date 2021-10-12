@@ -1,10 +1,12 @@
 import React from 'react';
+
+import Header from '../header';
 import './styles.css';
 
 const Contact = () => {
     return (
         <div>
-            Contact
+            <Header title="CONTACT" />
         </div>
     );
 };

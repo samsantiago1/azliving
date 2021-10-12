@@ -1,10 +1,14 @@
 import React from 'react';
-import './styles.css';
 
-const Layout = () => {
+import NavBar from './NavBar';
+
+const Layout = ({ children }) => {
     return (
         <div>
-            Layout
+            <NavBar />
+            <div>
+                {children}
+            </div>
         </div>
     );
 };

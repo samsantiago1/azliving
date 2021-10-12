@@ -1,10 +1,12 @@
 import React from 'react';
+
+import Header from '../header';
 import './styles.css';
 
 const Move = () => {
     return (
         <div>
-            Move
+            <Header title="MOVE TO AZ" />
         </div>
     );
 };

@@ -1,0 +1,30 @@
+.navbar {
+    font-family: 'Inder', sans-serif;
+    font-size: 18px;
+    margin: 0.5rem 1rem;
+    padding: 0;
+}
+
+.hamburger {
+    border: none;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #000;
+    margin: 1rem 0;
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        margin: 0 1.7rem;
+    }
+
+    .nav-item {
+        margin-right: 3.75rem;
+    }
+
+    .nav-item:last-child {
+        margin-right: 0;
+    }
+}

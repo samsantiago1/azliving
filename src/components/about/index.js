@@ -1,10 +1,12 @@
 import React from 'react';
+
+import Header from '../header';
 import './styles.css';
 
 const About = () => {
     return (
         <div>
-            About
+            <Header title="ABOUT" />
         </div>
     );
 };

@@ -1,10 +1,16 @@
 import React from 'react';
+
+import Header from '../header';
 import './styles.css';
 
 const Home = () => {
     return (
         <div>
-            Home
+            <Header
+                homepage={true}
+                title="ARIZONA LIVING"
+                subtitle="UNCENSORED TRUTH ABOUT LIFE IN THE PHOENIX VALLEY"
+            />
         </div>
     );
 };

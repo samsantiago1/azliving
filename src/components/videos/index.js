@@ -1,10 +1,12 @@
 import React from 'react';
+
+import Header from '../header';
 import './styles.css';
 
 const Videos = () => {
     return (
         <div>
-            Videos
+            <Header title="VIDEO SHORTS" />
         </div>
     );
 };
