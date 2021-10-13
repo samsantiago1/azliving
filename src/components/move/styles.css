@@ -1,0 +1,133 @@
+.move-intro {
+    margin-top: 2.2rem;
+}
+
+.move-intro-top, .move-intro-bottom {
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+.move-intro-top {
+    max-width: 334px;
+    margin-bottom: 0.4rem;
+}
+
+.move-intro-bottom {
+    max-width: 263px;
+}
+
+.move-steps-section, .move-realtors-section {
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.move-steps-heading {
+    font-size: 32px;
+    margin-top: 1.2rem;
+}
+
+.move-steps-text {
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+}
+.move-photo-wrapper {
+    max-width: 235px;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+}
+
+.move-photo-wrapper img {
+    width: 100%;
+}
+
+.move-realtors-section {
+    margin: 2rem auto;
+}
+
+.move-realtors-text {
+    font-size: 16px;
+    padding: 0 0.4rem;
+}
+
+.realtors-photo-wrapper {
+    max-width: 130px;
+    margin: 0 auto;
+}
+
+.realtors-photo-wrapper img {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .move-intro {
+        margin-top: 1.4rem;
+    }
+
+    .move-intro-top, .move-intro-bottom, .move-steps-section, .move-realtors-section {
+        max-width: 1440px;
+        font-size: 18px;
+    }
+
+    .move-steps {
+        text-align: left;
+        margin-top: 0.8rem;
+    }
+
+    .move-steps-heading, .move-steps-text {
+        display: inline-block;
+        margin: 0;
+    }
+
+    .move-steps-heading {
+        font-size: 42px;
+        margin-left: 2rem;
+    }
+
+    .move-steps-text {
+        font-size: 18px;
+        margin-left: 1.5rem;
+    }
+
+    .move-photo-wrapper {
+        position: absolute;
+        top: 400px;
+        right: 0;
+        max-width: 220px;
+    }
+
+    .realtors-photo-wrapper {
+        max-width: 230px;
+    }
+}
+
+@media (min-width: 1030px) {
+    .move-photo-wrapper {
+        top: 450px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .move-intro-top, .move-intro-bottom, .move-steps-text, .move-realtors-text {
+        font-size: 24px;
+    }
+
+    .move-photo-wrapper {
+        /* position: absolute;
+        top: 450px;
+        right: 0; */
+        max-width: 363px;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .move-steps-heading {
+        margin-left: 7rem;
+    }
+}
+
+@media (min-width: 1650px) {
+    .move-photo-wrapper {
+        right: 150px;
+    }
+}

@@ -49,16 +49,18 @@
 @media (min-width: 770px) {
     .home-main-content {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 53% 47%;
         max-width: 1440px;
         margin: 0 auto;
     }
 
     .home-photo-wrapper {
         max-width: 569px;
+        margin-right: 1rem;
     }
 
     .home-text-section {
+        justify-self: start;
         align-self: end;
     }
 
@@ -89,65 +91,10 @@
     .home-quote {
         max-width: 554px;
         margin-top: 1.5rem;
+        margin-bottom: 2.5rem;
     }
 
     .socialmedia {
         margin: 4rem auto;
     }
 }
-
-
-/* .home-main-content {
-    display: flex;
-    justify-content: center;
-}
-
-.home-photo-wrapper {
-    position: relative;
-    top: -25px;
-    max-width: 675px;
-}
-
-.home-photo-wrapper img {
-    width: 100%;
-}
-
-.home-text-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.home-text {
-    max-width: 473px;
-    font-size: 28px;
-    margin-top: 8.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.home-quote {
-    max-width: 554px;
-    margin-top: 1.5rem;
-}
-
-.home-footer {
-    margin-top: 3.1rem;
-}
-
-.socialmedia-link {
-    margin-right: 1.5rem;
-}
-
-.socialmedia-icon {
-    height: 45px;
-    width: 45px;
-}
-
-.copyright {
-    font-size: 12px;
-    margin-top: 4.4rem;
-}
-
-.copyright-detail {
-    margin-bottom: 0;
-} */
