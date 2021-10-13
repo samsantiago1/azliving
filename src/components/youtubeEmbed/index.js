@@ -5,7 +5,7 @@ const YoutubeEmbed = ({ title, videoID }) => {
     return (
         <iframe
             title={title}
-            src={`https://www.youtube.com/ebed/${videoID}`}
+            src={`https://www.youtube.com/embed/${videoID}`}
             loading="lazy"
             frameBorder="0"
         >

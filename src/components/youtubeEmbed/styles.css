@@ -10,7 +10,7 @@ iframe {
     }
 }
 
-@media (min-width: 1030px) {
+@media (min-width: 1250px) {
     iframe {
         width: 389px;
         height: 209px;

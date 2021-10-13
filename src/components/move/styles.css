@@ -1,5 +1,5 @@
 .move-intro {
-    margin-top: 2.2rem;
+    margin-top: 1.2rem;
 }
 
 .move-intro-top, .move-intro-bottom {
@@ -60,7 +60,7 @@
 
 @media (min-width: 992px) {
     .move-intro {
-        margin-top: 1.4rem;
+        margin-top: 0.4rem;
     }
 
     .move-intro-top, .move-intro-bottom, .move-steps-section, .move-realtors-section {
@@ -112,13 +112,9 @@
     }
 
     .move-photo-wrapper {
-        /* position: absolute;
-        top: 450px;
-        right: 0; */
         max-width: 363px;
     }
 }
-
 
 @media (min-width: 1440px) {
     .move-steps-heading {
