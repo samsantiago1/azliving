@@ -1,0 +1,88 @@
+/* ContactMain */
+
+.contact-main-text-top {
+    margin-bottom: 0.5rem;
+}
+
+.contact-main-text-bottom {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.contact-photo-wrapper {
+    max-width: 235px;
+    margin: 0 auto;
+}
+
+.contact-photo-wrapper img {
+    width: 100%;
+}
+
+.contact-quote {
+    max-width: 315px;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+@media (min-width: 760px) {
+    .contact-main-text-top {
+        margin-top: 0.3rem;
+        margin-bottom: 1rem;
+    }
+
+    .contact-main-text-bottom {
+        max-width: 694px;
+    }
+
+    .contact-photo-wrapper {
+        max-width: 337px;
+    }
+
+    .contact-quote {
+        max-width: 1440px;
+        margin-top: 0.4rem;
+    }
+}
+
+@media (min-width: 1030px) {
+    .contact-main-text-bottom {
+        max-width: 900px;
+    }
+
+    .contact-photo-wrapper {
+        max-width: 410px;
+    }
+}
+
+/* ContactConfirmation */
+
+.contact-confirmation-quote {
+    margin: 0.9rem auto;
+}
+
+.contact-confirmation-container {
+    margin: 6.5rem auto;
+}
+
+.contact-confirmation-text {
+    max-width: 239px;
+    margin: 0.8rem auto;
+}
+
+@media (min-width: 760px) {
+    .contact-confirmation-quote {
+        margin: 1.4rem auto;
+    }
+
+    .contact-confirmation-container {
+        max-width: 555px;
+        border: 2px solid #000;
+        padding: 2.4rem;
+        margin: 6.9rem auto;
+    }
+
+    .contact-confirmation-text {
+        max-width: 406px;
+        margin: 3.3rem auto;     
+    }
+}

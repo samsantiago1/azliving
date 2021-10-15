@@ -1,0 +1,50 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.6rem;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    height: 37px;
+    text-align: left;
+    border: 1px solid #000;
+}
+
+.form-group-last {
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+label {
+    font-family: 'Hind Guntur', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0.5rem;
+    padding-bottom: 0;
+}
+
+@media (min-width: 760px) {
+    .form-group-last {
+        margin-bottom: 1.3rem;
+    }   
+}
+
+@media (min-width: 1030px) {
+    .form-container {
+        margin-top: 1.5rem;
+        margin: 0.7rem;
+    }
+
+    .form-group {
+        height: 48px;
+    }
+
+    .form-group-last {
+        margin-top: 1.3rem;
+        margin-bottom: 0.7rem;
+    }
+}
