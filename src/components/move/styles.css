@@ -58,13 +58,18 @@
     width: 100%;
 }
 
+@media (min-width: 760px) {
+    .move-intro-top, .move-intro-bottom, .move-steps-section, .move-realtors-section {
+        max-width: 1440px;
+    }
+}
+
 @media (min-width: 992px) {
     .move-intro {
         margin-top: 0.4rem;
     }
 
     .move-intro-top, .move-intro-bottom, .move-steps-section, .move-realtors-section {
-        max-width: 1440px;
         font-size: 18px;
     }
 
