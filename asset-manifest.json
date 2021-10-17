@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/azliving/static/css/main.f1e4ce60.chunk.css",
-    "main.js": "/azliving/static/js/main.a814ea24.chunk.js",
-    "main.js.map": "/azliving/static/js/main.a814ea24.chunk.js.map",
+    "main.css": "/azliving/static/css/main.d6c01a00.chunk.css",
+    "main.js": "/azliving/static/js/main.b2e7a675.chunk.js",
+    "main.js.map": "/azliving/static/js/main.b2e7a675.chunk.js.map",
     "runtime-main.js": "/azliving/static/js/runtime-main.7734c17d.js",
     "runtime-main.js.map": "/azliving/static/js/runtime-main.7734c17d.js.map",
     "static/js/2.42fab06e.chunk.js": "/azliving/static/js/2.42fab06e.chunk.js",
     "static/js/2.42fab06e.chunk.js.map": "/azliving/static/js/2.42fab06e.chunk.js.map",
     "index.html": "/azliving/index.html",
-    "static/css/main.f1e4ce60.chunk.css.map": "/azliving/static/css/main.f1e4ce60.chunk.css.map",
+    "static/css/main.d6c01a00.chunk.css.map": "/azliving/static/css/main.d6c01a00.chunk.css.map",
     "static/js/2.42fab06e.chunk.js.LICENSE.txt": "/azliving/static/js/2.42fab06e.chunk.js.LICENSE.txt",
     "static/media/aboutPhoto.305ead01.png": "/azliving/static/media/aboutPhoto.305ead01.png",
     "static/media/contactPhoto.ae38d75c.png": "/azliving/static/media/contactPhoto.ae38d75c.png",
     "static/media/homePhoto.4536d890.png": "/azliving/static/media/homePhoto.4536d890.png",
+    "static/media/App.css": "/azliving/static/media/impact.0294f828.ttf",
     "static/media/movePhoto.4cb6e5ea.png": "/azliving/static/media/movePhoto.4cb6e5ea.png",
     "static/media/realtorsPhoto.dbc5b46b.png": "/azliving/static/media/realtorsPhoto.dbc5b46b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7734c17d.js",
     "static/js/2.42fab06e.chunk.js",
-    "static/css/main.f1e4ce60.chunk.css",
-    "static/js/main.a814ea24.chunk.js"
+    "static/css/main.d6c01a00.chunk.css",
+    "static/js/main.b2e7a675.chunk.js"
   ]
 }
