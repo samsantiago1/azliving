@@ -7,6 +7,7 @@ import Move from './move';
 import Videos from './videos';
 import Contact from './contact';
 import About from './about';
+import '../fonts/impact.ttf';
 import './App.css';
 
 const App = () => {
