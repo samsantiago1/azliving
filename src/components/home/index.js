@@ -65,27 +65,18 @@ const Home = () => {
                     </a>
                 </div>
 
-                {/* <div className="copyright"> */}
                 <p className="copyright">{`Design by `}
                     <a href="http://colleenux.com/" target="_blank" rel="noreferrer">
                         <span>Colleen Ballesteros
                         </span>
                     </a>
                     {` and `}
-                    <a href="https://hyunyounglee.netlify.app/" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/hyun-young-lee-15a5a813a/" target="_blank" rel="noreferrer">
                         <span>
                             Hyun Young Lee
                         </span>
                     </a>
                 </p>
-                {/* <p className="copyright-detail">{`Built by `}
-                            <a href="https://hyunyounglee.netlify.app/" target="_blank" rel="noreferrer">
-                                <span>
-                                    Hyun Young Lee
-                                </span>
-                            </a>
-                        </p> */}
-                {/* </div> */}
             </div>
         </div>
     );

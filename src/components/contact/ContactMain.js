@@ -5,9 +5,6 @@ import contactPhoto from '../../img/contactPhoto.png';
 import './styles.css';
 
 const ContactMain = ({ renderConfirmation }) => {
-
-    console.log(renderConfirmation);
-
     return (
         <div className="page-container">
             <p className="contact-main-text-top">
