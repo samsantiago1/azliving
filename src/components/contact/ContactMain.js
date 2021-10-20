@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ContactForm from './contactForm';
+import MailchimpForm from './contactForm';
 import contactPhoto from '../../img/contactPhoto.png';
 import './styles.css';
 
@@ -17,8 +17,7 @@ const ContactMain = ({ renderConfirmation }) => {
             <div className="contact-photo-wrapper">
                 <img src={contactPhoto} alt="Sam smiling with thumbs up" />
             </div>
-            <ContactForm renderConfirmation={renderConfirmation} />
-
+            <MailchimpForm renderConfirmation={renderConfirmation} />
             <p className="quote contact-quote">
                 "LOVE YOUR CHANNEL SAM! KEEP DOING YOU - YOUR TRUE FANS APPRECIATE YOUR HONEST NO BS STYLE." C.C.
             </p>

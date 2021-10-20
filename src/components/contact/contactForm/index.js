@@ -1,13 +1,25 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import MailchimpSubscribe from 'react-mailchimp-subscribe';
 
 import Button from '../../button';
 import './styles.css';
 
-const ContactForm = ({ renderConfirmation }) => {
+const CustomForm = ({ status, onValidated, renderConfirmation }) => {
     const [values, setValues] = useState({
         name: '',
         email: '',
     });
+
+    useEffect(() => {
+        if (status === "success") {
+            console.log('subscribed');
+            renderConfirmation();
+            return setValues({
+                name: '',
+                email: '',
+            })
+        }
+    }, [status, renderConfirmation]);
 
     const handleInputChange = event => {
         const { name, value } = event.target;
@@ -16,11 +28,17 @@ const ContactForm = ({ renderConfirmation }) => {
 
     const handleSubmit = event => {
         event.preventDefault();
-        renderConfirmation();
-    }
+        values.name &&
+            values.email &&
+            values.email.indexOf('@') > -1 &&
+            onValidated({
+                MERGE1: values.name,
+                EMAIL: values.email,
+            });
+    };
 
     return (
-        <form onSubmit={handleSubmit} className="form-container">
+        <form onSubmit={event => handleSubmit(event)} className="form-container">
             <div className="form-group">
                 <label>Name</label>
                 <input
@@ -44,9 +62,28 @@ const ContactForm = ({ renderConfirmation }) => {
                     className="form-input"
                 />
             </div>
-            <Button text="Send it" type="submit" />
-        </form>
+            <Button text="Send it" type="submit" formValues={[values.name, values.email]} />
+        </form >
+    );
+}
+
+const MailchimpForm = ({ renderConfirmation }) => {
+    const subscribeUrl = `https://gmail.us5.list-manage.com/subscribe/post?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`;
+
+    return (
+        <div>
+            <MailchimpSubscribe
+                url={subscribeUrl}
+                render={({ subscribe, status }) => (
+                    <CustomForm
+                        status={status}
+                        onValidated={formData => subscribe(formData)}
+                        renderConfirmation={renderConfirmation}
+                    />
+                )}
+            />
+        </div>
     );
 };
 
-export default ContactForm;
+export default MailchimpForm;
