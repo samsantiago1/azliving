@@ -34,7 +34,7 @@ const Move = () => {
                         <div className="move-photo-wrapper">
                             <img src={movePhoto} alt="Sam pointing with mouth open" />
                         </div>
-                        <Button href="https://youtube.com/Arizonaliving" text="Subscribe" />
+                        <Button href="https://www.youtube.com/Arizonaliving?sub_confirmation=1" text="Subscribe" />
                     </div>
 
                     <div>

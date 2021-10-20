@@ -29,7 +29,7 @@ const Videos = () => {
                 <p className="videos-subscribe-text">
                     Don't miss out on more uncensored advice! Smash the subscribe button now.
                 </p>
-                <Button href="https://youtube.com/Arizonaliving" text="Subscribe" />
+                <Button href="https://www.youtube.com/Arizonaliving?sub_confirmation=1" text="Subscribe" />
                 <p className="videos-join-text">
                     And join me on Patreon for exclusive sneak peaks and more AZ content
                 </p>

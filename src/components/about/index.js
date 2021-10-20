@@ -35,7 +35,7 @@ const About = () => {
                     </p>
                 </div>
 
-                <Button href="https://youtube.com/Arizonaliving" text="Subscribe" />
+                <Button href="https://www.youtube.com/Arizonaliving?sub_confirmation=1" text="Subscribe" />
                 <p className="quote about-quote">
                     "INFORMATIVE, GOOD ENERGY AND DAMN FUNNY" T.J.
                 </p>
