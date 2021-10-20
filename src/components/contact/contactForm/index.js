@@ -68,7 +68,7 @@ const CustomForm = ({ status, onValidated, renderConfirmation }) => {
 }
 
 const MailchimpForm = ({ renderConfirmation }) => {
-    const subscribeUrl = `https://gmail.us5.list-manage.com/subscribe/post?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`;
+    const subscribeUrl = `https://gmail.us5.list-manage.com/subscribe/post?u=${{secrets.REACT_APP_MAILCHIMP_U}}&id=${{secrets.REACT_APP_MAILCHIMP_ID}}`;
 
     return (
         <div>
